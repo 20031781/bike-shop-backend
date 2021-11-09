@@ -24,7 +24,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 const db = require("./app/models");
 require("./app/routes/tutorial.routes")(app);
 
-/*
+/* Evita che il database venga resettato.
+Necessario eseguire se non si possiede il file bikeshop.sqlite (così lo aggiunge automaticamente).
 db.sqlConnection.sync({force: true}).then(() => {
     console.log("Eliminato e ri sincronizzato db.");
 });
