@@ -1,0 +1,30 @@
+{
+  "name": "bike-shop-backend",
+  "version": "1.0.0",
+  "description": "Bike Shop di Lorenzo.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "api",
+    "sequelize",
+    "sqlite3",
+    "rest"
+  ],
+  "author": "Lorenzo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "sequelize": "^6.9.0",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/sequelize": "^4.28.10"
+  }
+}
