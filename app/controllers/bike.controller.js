@@ -1,7 +1,7 @@
 "use strict";
 const db = require('../models');
 const Bike = db.bikes;
-const sqlConnection = db.sqlConnection; // prima db.Sequelize.sqlConnection
+const sqlConnection = db.sqlConnection;
 
 // Crea e salva una nuova moto
 exports.create = (req, res) => {
