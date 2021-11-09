@@ -10,6 +10,7 @@ Il progetto è stato realizzato cercando di rendere il codice il più possibile:
 - separato logicamente
 
 ## Avvio
+Installare node.js.  
 Installare le dipendenze con `npm install`.  
 Avviare il backend con `node server.js`.
 
